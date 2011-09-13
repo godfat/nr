@@ -7,12 +7,13 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Lin Jen-Shin (godfat)"]
   s.date = "2011-09-13"
-  s.description = ""
+  s.description = "nr -- net received -- The other side of nc\n\nPlay with `nr localhost 1234` and `nc localhost 1234`"
   s.email = ["godfat (XD) godfat.org"]
   s.executables = ["nr"]
   s.files = [
   ".gitignore",
   ".gitmodules",
+  "README.md",
   "Rakefile",
   "bin/nr",
   "lib/nr.rb",
@@ -23,7 +24,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/godfat/nr"
   s.require_paths = ["lib"]
   s.rubygems_version = "1.8.10"
-  s.summary = ""
+  s.summary = "nr -- net received -- The other side of nc"
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
