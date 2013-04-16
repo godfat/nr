@@ -11,7 +11,7 @@ task 'gem:spec' do
     s.name    = 'nr'
     s.version = Nr::VERSION
 
-    %w[cool.io].each{ |g| s.add_runtime_dependency(g) }
+    %w[celluloid-io].each{ |g| s.add_runtime_dependency(g) }
   end
 
   Gemgem.write

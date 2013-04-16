@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-require 'nr'
-Nr.start ARGV
+require 'nr/runner'
+Nr::Runner.run
