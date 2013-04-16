@@ -1,4 +1,4 @@
 
-module Nr
-  VERSION = '0.9.0'
+class Nr
+  VERSION = '0.9.1'
 end

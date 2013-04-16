@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |s|
   s.name = "nr"
-  s.version = "0.9.0"
+  s.version = "0.9.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Lin Jen-Shin (godfat)"]
   s.date = "2013-04-16"
-  s.description = "nr -- net received -- The other side of nc\n\nPlay with `nr localhost 1234` and `nc localhost 1234`"
+  s.description = "nr --net received-- The other side of nc.\n\nRun the server with `nr` and client with `echo 'test' | nc localhost 12344`."
   s.email = ["godfat (XD) godfat.org"]
   s.executables = ["nr"]
   s.files = [
@@ -25,7 +25,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/godfat/nr"
   s.require_paths = ["lib"]
   s.rubygems_version = "2.0.0"
-  s.summary = "nr -- net received -- The other side of nc"
+  s.summary = "nr --net received-- The other side of nc."
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
