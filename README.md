@@ -35,12 +35,12 @@ Run the server with `nr` and client with `echo 'test' | nc localhost 12344`.
 
 * Step 1:
 
-    > nr
-    Listening on 0.0.0.0:12344
+      > nr
+      Listening on 0.0.0.0:12344
 
 * Step 2:
 
-    > echo 'test' | nc localhost 12344
+      > echo 'test' | nc localhost 12344
 
 * Step 3: You'll see `test` printed from `nr`.
 
